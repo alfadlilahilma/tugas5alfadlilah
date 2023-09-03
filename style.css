@@ -1,0 +1,92 @@
+body {
+    margin: 20;
+    padding: 40;
+}
+
+.video-container {
+    position: left;
+    width: 30%;
+    height: 35vh;
+}
+
+video {
+    width: 200%;
+    height: 200%;
+    object-fit: cover; /* Mempertahankan aspek rasio video */
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 20;
+            padding: 30;
+            height: 100vh;
+            overflow: hidden
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 300px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .input-container {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .input-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .input-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .captcha-input {
+            width: 70%;
+        }
+
+        .captcha-image {
+            width: 20%;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+
+        button {
+            background-color: palevioletred;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 20px 30px;
+            cursor: pointer;
+            transition: background-color 0.1s;
+        }
+
+        button:hover {
+            background-color: black;
+        }
